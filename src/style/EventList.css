@@ -1,0 +1,55 @@
+#event-list {
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 700px;
+  width: 324px;
+  height: 444px; }
+  #event-list header {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: #009195; }
+    #event-list header h3 {
+      margin: 0;
+      padding: 18px 0 0 18px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 17px; }
+  #event-list ul, #event-list li {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  #event-list ul {
+    background-color: rgba(64, 64, 64, 0.8);
+    padding-top: 5px; }
+    #event-list ul li {
+      color: #fff; }
+      #event-list ul li div.event-list-item-container {
+        width: 285px;
+        height: 97px;
+        margin: 0 30px 0 12px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        overflow: hidden; }
+        #event-list ul li div.event-list-item-container div {
+          padding: 0 0 0 8px;
+          white-space: nowrap; }
+        #event-list ul li div.event-list-item-container div.event-list-item-time {
+          font-size: 19px;
+          line-height: 21px;
+          font-weight: 500;
+          padding-top: 14px; }
+          #event-list ul li div.event-list-item-container div.event-list-item-time span {
+            padding: 0 0 0 2px; }
+        #event-list ul li div.event-list-item-container div.event-list-item-title {
+          font-size: 23px;
+          line-height: 25px;
+          font-weight: 600; }
+        #event-list ul li div.event-list-item-container div.event-list-item-location {
+          font-size: 19px;
+          line-height: 19px;
+          font-weight: 500; }
+    #event-list ul li:last-child div.event-list-item-container {
+      border-bottom: none !important; }

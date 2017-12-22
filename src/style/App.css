@@ -1,0 +1,76 @@
+#app {
+  font-family: 'Whitney A', 'Whitney B', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../img/earth-art.png");
+  background-repeat: no-repeat;
+  background-position: right -8px top;
+  background-size: 45%; }
+  #app .hidden {
+    display: none; }
+  #app #header {
+    margin: 0;
+    padding: 9px 0 0 0;
+    width: 700px;
+    height: 147px;
+    overflow: hidden; }
+    #app #header #wordmark {
+      margin-left: 52px;
+      width: 230px;
+      height: 85px;
+      background-image: url("../img/pv-wordmark-194x76.png");
+      background-position: left 5px top 5px;
+      background-repeat: no-repeat;
+      float: left; }
+    #app #header ul, #app #header li {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+    #app #header #links {
+      float: left;
+      color: #009195;
+      font-weight: 700;
+      font-size: 16px;
+      width: 380px;
+      margin-left: 12px;
+      margin-top: 15px; }
+      #app #header #links li {
+        width: 126px;
+        height: 38px;
+        padding-left: 45px;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: 20%; }
+        #app #header #links li span.thick-one {
+          font-weight: 900;
+          font-size: 18px; }
+        #app #header #links li span.thick-two {
+          font-weight: 900;
+          font-size: 18px;
+          margin-left: -15px; }
+      #app #header #links #link-twitter {
+        background-position: 4px -7px;
+        background-image: url("../img/link-icon-twitter.png"); }
+      #app #header #links #link-facebook {
+        background-position: 15px -6px;
+        background-image: url("../img/link-icon-facebook.png"); }
+      #app #header #links #link-pv {
+        background-position: 3px -7px;
+        background-image: url("../img/link-icon-pv.png"); }
+    #app #header.offline {
+      width: 1024px; }
+      #app #header.offline #wordmark {
+        margin-left: 82px; }
+      #app #header.offline #links {
+        margin-left: 270px; }
+  #app #offline {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #fdc242;
+    height: 268px;
+    padding-top: 190px;
+    text-align: center; }
+  #app.offline {
+    background-position: center bottom;
+    background-size: 18%; }
