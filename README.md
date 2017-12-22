@@ -1,4 +1,4 @@
-# lobby-wall-events-map-app
+# planet-vision-wall-app
 React web application for PlanetVision wall email sign-up and event listing.
 
 ## Installation
